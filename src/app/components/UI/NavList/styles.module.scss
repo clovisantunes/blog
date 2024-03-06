@@ -1,0 +1,73 @@
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    ul{
+        display: flex;
+      
+        
+        list-style: none;
+        li{
+            display: flex;
+           border-right: solid 1px rgba(154, 154, 154, 0.4);
+           margin: 0 8px 0 0px;
+           &:last-child{
+            border: none;
+           }
+        }
+        a{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            font-family: italic, sans-serif;
+            margin-right: 8px;
+            font-size: 18px;
+            color: var(--colors-secondary-100);
+            svg{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+.dropdown{
+    width: 8em;
+    height: 4em;
+    background-color: #232323;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    padding: 2px;
+    overflow: hidden;
+    animation: dropDownAnimation .5s forwards;
+   a{
+        margin: 4px 0 4px 4px;
+        border: none;
+    }
+}
+
+.dropdownInspiration{
+    width: 136px;
+    height: 4em;
+    background-color: #232323;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    padding: 2px;
+    overflow: hidden;
+    animation: dropDownAnimation .5s forwards;
+    a{
+        margin: 4px 0 4px 4px;
+    }
+}
+@keyframes dropDownAnimation{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 4em;
+    }
+}

@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  :root {
+    --colors-secondary-50: #5B5B5B;
+    --colors-secondary-100: #e9e9e9;
+    --colors-secondary-200: #d9d9d9;
+    --colors-secondary-300: #353535;
+    --colors-secondary-400: #979595;
+    --colors-secondary-500: #030303;
+    --colors-secondary-600: #080b10;
+    --colors-secondary-700: #06090d;
+    --colors-secondary-800: #05070a;
+    --colors-secondary-900: black;
+  
+    --colors-neutral-50: #ffffff;
+    --colors-neutral-100: #f7f8f9;
+    --colors-neutral-200: #f3f4f6;
+    --colors-neutral-300: #eeeff2;
+    --colors-neutral-400: #eaecef;
+    --colors-neutral-500: #dee7f8;
+    --colors-neutral-600: #b4c1d8;
+    --colors-neutral-700: #adb9cf;
+    --colors-neutral-800: #8a97ad;
+    --colors-neutral-900: #4200ff;
+  
+    --colors-error-50: #ffebeb;
+    --colors-error-100: #fdc1c1;
+    --colors-error-200: #fda3a3;
+    --colors-error-300: #fc7a7a;
+    --colors-error-400: #fb6060;
+   --colors-error-500: #fa3838;
+   --colors-error-600: #e43333;
+    --colors-error-700: #b22828;
+    --colors-error-800: #8a1f1f;
+    --colors-error-900: #691818;
+  
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+  
+    
+  
+    img,
+    picture,
+    svg,
+    video {
+      display: block;
+      max-width: 100%;
+    }
+  
+    body {
+      font-family: "jaldi", sans-serif;
+    }
+    input,
+    button,
+    textarea {
+      font-family: "jaldi", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  
+    body {
+      background-color: var(--colors-neutral-50);
+      a {
+        color: var(--colors-neutral-100);
+        text-decoration: none;
+      }
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.main_container{
+    width: 100%;
+    height: 24em;
+    background-image: url('../../assets/bacground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1, h2{
+        color: white;
+        margin-bottom: 8px;
+    }
+    .line{
+        width: 18%;
+        height: 4px;
+        background-color: #B9A48C;
+    }
+}
