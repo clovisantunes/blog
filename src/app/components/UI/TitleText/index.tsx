@@ -5,9 +5,9 @@ interface titleTextProps{
     weight: string;
 }
 
-export default function TitlteText({text, size, weight}: titleTextProps){
+export default function TitleText({text, size, weight}: titleTextProps){
     return(
-        <h1 style={{ fontWeight: weight}} className={styles.titleH1}>
+        <h1 style={{ fontWeight: weight, fontSize:size}} className={styles.titleH1}>
             {text}
         </h1>
     )

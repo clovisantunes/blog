@@ -8,7 +8,7 @@ interface SubTextProps{
 
 export default function SubText({text, size, weight}: SubTextProps){
     return(
-        <h2 style={{ fontWeight: weight}} className={styles.h2Item}>
+        <h2 style={{ fontWeight: weight , fontSize: size}} className={styles.h2Item}>
             {text}
         </h2>
     )

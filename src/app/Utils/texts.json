@@ -1,0 +1,85 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "image": "/assets/img1.png",
+        "title": "Decoração de alto padrão: O que não pode faltar na decoração de luxo",
+        "description": "Decoração de alto padrão: veja dicas do que precisa estar presente na decoração de interiores de luxo A decoração de alto padrão deve unir a elegância ao conforto e à funcionalidade. Assim, um projeto de design de interiores deve combinar tendências...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 2,
+        "image": "/assets/img2.png",
+        "title": "Dicas para decorar apartamento pequeno:",
+        "description": "Nossas dicas para decorar apartamento pequeno vão ajudar a maximizar cada centímetro do seu espaço! 1. Integração dos ambientes Quando os espaços são compactos, o ideal é minimizar as divisões e eliminar paredes desnecessárias. Assim, integrar os ambientes é uma solução muito...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 3,
+        "image": "/assets/img3.png",
+        "title": "Medidas na decoração- Parte 1",
+        "description": "Medidas na decoração: guia para ajudar a decorar a sua casa Uma das dúvidas mais comuns na hora de projetar a casa é sobre as medidas na decoração. Saber adequadamente como fazer o dimensionamento dos móveis, das passagens para a circulação...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 4,
+        "image": "/assets/img4.png",
+        "title": "Medidas na decoração- Parte 2",
+        "description": "Medidas na decoração: guia para ajudar a decorar a sua casa Uma das dúvidas mais comuns na hora de projetar a casa é sobre as medidas na decoração. Saber adequadamente como fazer o dimensionamento dos móveis, das passagens para a circulação...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 5,
+        "image": "/assets/img5.png",
+        "title": "Louças e metais coloridos",
+        "description": "Louças e metais coloridos deixam os banheiros mais charmosos As louças e metais coloridos chegaram para ficar. Como uma releitura das peças vintage, as louças e metais de vários tons e cores criam ambientes mais convidativos, modernos e charmosos. Veja as...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 6,
+        "image": "/assets/img6.png",
+        "title": "Brasilidade na decoração",
+        "description": "Brasilidade na decoração: como usar a cultura brasileira nos projetos de interiores e decoração A brasilidade na decoração remete à nossa cultura, que é muito rica e cheia de elementos que podem deixar os ambientes atuais e bacanas. Assim, as matérias...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 7,
+        "image": "/assets/img7.png",
+        "title": "Banheiro ou Lavabo?",
+        "description": "Banheiro ou Lavabo? Entenda as diferenças! Todas as casas têm as características do proprietário. Tanto na hora de construir quanto de decorar, sempre tentamos deixar todos os detalhes com a nossa cara. Por isso, em cada cômodo criamos designs com elementos que... ",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 8,
+        "image": "/assets/img8.png",
+        "title": "Decoração de Studio",
+        "description": "Decoração de studio: como deixar lindo e funcional um projeto de studio A decoração de studio pode aumentar o valor do imóvel, tanto em termos de revenda quanto em termos de aluguel. Se você comprou um studio e gostaria de aproveitar...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 9,
+        "image": "/assets/img9.png",
+        "title": "Tendência em Porcelanato para 2024",
+        "description": "Tendências em porcelanato para 2024 As tendências em porcelanato para 2024 foram apresentadas nas feiras do setor de revestimentos que ocorreram no início do ano. Veja as nossas dicas para tornar seu projeto de decoração atual e elegante. Pisos com formas orgânicas Os...",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      },
+      {
+        "id": 10,
+        "image": "/assets/img10.png",
+        "title": "Altura ideal para a tv",
+        "description": "Altura ideal para a TV - como instalar a TV para ficar confortável Em todos os projetos que desenvolvemos, os clientes já têm em mente o local onde querem colocar a TV. Assim, a dúvida sobre a altura ideal para a... ",
+        "autor": "Nome Sobrenome",
+        "date": "XX/Fevereiro/XXXX"
+      }
+    ]
+  }
+  

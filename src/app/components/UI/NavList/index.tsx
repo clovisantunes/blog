@@ -3,7 +3,11 @@ import styles from './styles.module.scss';
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { useState } from 'react';
 
-export default function NavList() {
+interface navListProps{
+    textColor: string;
+}
+
+export default function NavList({textColor}: navListProps) {
     const [decoramosDropdownVisible, setDecoramosDropdownVisible] = useState(false);
     const [inspiracoesDropdownVisible, setInspiracoesDropdownVisible] = useState(false);
 
@@ -25,16 +29,17 @@ export default function NavList() {
 
     return (
         <>
+                <img src='/assets/logo.png' alt='logo' className={styles.logoImg}/>
             <div className={styles.navList}>
                 <ul>
-                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/" style={{color: textColor}}>Inicio<span>|</span></a></li>
                     <li
                         onMouseEnter={showDecoramosDropdown}
                         onMouseLeave={hideDecoramosDropdown}
                     >
-                        <a href="">
+                        <a href="" style={{color: textColor}}>
                             decoramos<MdOutlineKeyboardArrowDown />
-                        </a>
+                            <span>|</span></a>
                         {decoramosDropdownVisible && (
                             <ul className={styles.dropdown}>
                                 <a href="/casa">Casa</a>
@@ -42,15 +47,15 @@ export default function NavList() {
                             </ul>
                         )}
                     </li>
-                    <li><a href="/#">antes e depois</a></li>
-                    <li><a href="/#">Projetos</a></li>
+                    <li><a href="/#"  style={{color: textColor}}>antes e depois<span>|</span></a></li>
+                    <li><a href="/#" style={{color: textColor}}>Projetos<span>|</span></a></li>
                     <li
                         onMouseEnter={showInspiracoesDropdown}
                         onMouseLeave={hideInspiracoesDropdown}
                     >
-                        <a href="">
+                        <a href="" style={{color: textColor}}>
                             Inspirações<MdOutlineKeyboardArrowDown />
-                        </a>
+                            <span>|</span></a>
                         {inspiracoesDropdownVisible && (
                             <ul className={styles.dropdownInspiration}>
                        
@@ -59,7 +64,7 @@ export default function NavList() {
                             </ul>
                         )}
                     </li>
-                    <li><a href="/contact">Contato</a></li>
+                    <li><a href="/contact" style={{color: textColor}}>Contato</a></li>
                 </ul>
             </div>
         </>
