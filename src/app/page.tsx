@@ -4,6 +4,8 @@ import Main from "./components/Main/Index";
 import { NavBar } from "./components/NavBar";
 import Post from "./components/Post";
 import Mail from './components/Mail';
+import WhatsContact from './components/UI/WhatsContact';
+import Footer from './components/Footer';
 
 
 export default function Home() {
@@ -21,7 +23,11 @@ export default function Home() {
       <Mail />
       </div>
       </div>
+      <WhatsContact />
     </main>
+    <footer>
+      <Footer />
+    </footer>
     </>
 
   );

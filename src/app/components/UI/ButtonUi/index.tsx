@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import styles from './styles.module.scss';
 import { MdArrowForwardIos } from "react-icons/md";
 
@@ -8,6 +9,7 @@ interface ButtonProps{
 interface ButtonMainProps{
     text: string;
     backgroundColor: string;
+    icon?: ReactNode;
 }
 
  function ButtonUi({text, subText}: ButtonProps){
@@ -21,11 +23,11 @@ interface ButtonMainProps{
         </>
     )
 }
- function ButtonMain({text, backgroundColor}: ButtonMainProps){
+ function ButtonMain({text, backgroundColor, icon}: ButtonMainProps){
     return(
         <>
         <div className={styles.buttonMain} style={{backgroundColor: backgroundColor}}>
-            <span>{text}</span>
+            <span>{icon}</span><span>{text}</span>
         </div>
 
         </>

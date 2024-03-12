@@ -1,3 +1,7 @@
+.h2Item{
+    display: flex;
+    flex-direction: row;
+}
 @media (max-width:780px) {
     .h2Item{
         font-size: 12px;
