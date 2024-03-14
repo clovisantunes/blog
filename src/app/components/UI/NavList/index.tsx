@@ -47,7 +47,7 @@ export default function NavList({textColor}: navListProps) {
                             </ul>
                         )}
                     </li>
-                    <li><a href="/#"  style={{color: textColor}}>antes e depois<span>|</span></a></li>
+                    <li><a href="/afterPage"  style={{color: textColor}}>antes e depois<span>|</span></a></li>
                     <li><a href="/projects" style={{color: textColor}}>Projetos<span>|</span></a></li>
                     <li
                         onMouseEnter={showInspiracoesDropdown}
@@ -59,8 +59,8 @@ export default function NavList({textColor}: navListProps) {
                         {inspiracoesDropdownVisible && (
                             <ul className={styles.dropdownInspiration}>
                        
-                                <a href="/inspiracao1">Cozinha</a>
-                                <a href="/inspiracao2">Sala de estar</a>
+                                <a href="/Inspirations/kitchen">Cozinha</a>
+                                <a href="/Inspirations/livingRoom">Sala de estar</a>
                             </ul>
                         )}
                     </li>
