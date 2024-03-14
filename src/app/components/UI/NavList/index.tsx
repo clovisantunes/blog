@@ -42,13 +42,13 @@ export default function NavList({textColor}: navListProps) {
                             <span>|</span></a>
                         {decoramosDropdownVisible && (
                             <ul className={styles.dropdown}>
-                                <a href="/casa">Casa</a>
-                                <a href="/escritorio">Escritório</a>
+                                <a href="/home">Casa</a>
+                                <a href="/work">Escritório</a>
                             </ul>
                         )}
                     </li>
                     <li><a href="/#"  style={{color: textColor}}>antes e depois<span>|</span></a></li>
-                    <li><a href="/#" style={{color: textColor}}>Projetos<span>|</span></a></li>
+                    <li><a href="/projects" style={{color: textColor}}>Projetos<span>|</span></a></li>
                     <li
                         onMouseEnter={showInspiracoesDropdown}
                         onMouseLeave={hideInspiracoesDropdown}

@@ -1,0 +1,76 @@
+.commentsContainer{
+    width: 100%;
+    height: 36em;
+    background-color: #F1F1F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    margin-top: 2em;
+    width: 60%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #B9A48C;
+    h1{
+        font-family: "imprint MT shadow";
+    }
+}
+.circleCard{
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    width: 16px;
+    height: 16px;
+    background-color: #B9A48C;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+.circleWhite{
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border: solid 2px #B9A48C;
+    margin-bottom: 2em;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+.commentCard{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    img{
+        width: 24em;
+        height: 18em;
+    }
+    .client{
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .clientName{
+        font-size: 24px;
+        margin-bottom: 16px;
+        font-family: "imprint MT shadow";
+    }
+    .clientComment{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .button{
+        width: 40%;
+        height: 3em;
+        color: white;
+    }
+}

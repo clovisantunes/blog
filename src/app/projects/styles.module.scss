@@ -1,0 +1,15 @@
+.projectsContainer{
+    width: 100%;
+    height: 60em;
+}
+.title{
+    width: 100%;
+    height: 36em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1,h2{
+        font-family: "imprint MT shadow";
+    }
+}

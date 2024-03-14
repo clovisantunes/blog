@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import styles from './styles.module.scss';
 
 interface SubTextProps{
-    text: string;
+    text?: string;
     size: string;
     weight: string;
     icon?: ReactNode;
