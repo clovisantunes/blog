@@ -61,3 +61,57 @@
         margin: 2em;
     }
 }
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mainTitle{
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    border-bottom: solid 1px #B9A48C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-family: "imprint MT shadow";
+      }
+}
+.cardMain{
+    width: 80%;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    .icon{
+        width: 8%;
+        height: 100%;
+        padding: 16px;
+        margin-right: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        background-color: #B9A48C;
+            svg{
+                width: 48px;
+                height: 48px;
+                color: white;
+            }
+        
+    }
+    .text{
+        width: 80%;
+        height: 100%;
+        padding: 16px;
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+    }
+}

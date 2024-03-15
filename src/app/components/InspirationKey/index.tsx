@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import { ButtonMain } from '../UI/ButtonUi';
 import SubText from '../UI/SubText';
 import TitleText from '../UI/TitleText';
@@ -8,9 +9,13 @@ interface inspirationsProps{
     imgPath: string;
     text: string;
     subText: string;
+    mainText: string;
+    titleMain: string[];
+    textMain: string[];
+    icon: ReactNode[];
 }
 
-export default function InspirationKey({title, imgPath, text, subText}: inspirationsProps) {
+export default function InspirationKey({title, imgPath, text, subText, mainText, icon, titleMain, textMain }: inspirationsProps) {
     return (
         <>
             <div className={styles.inspirationContainer}>
@@ -43,6 +48,36 @@ export default function InspirationKey({title, imgPath, text, subText}: inspirat
                             />
                         </div>
                     </div>
+                </div>
+                <div className={styles.main}>
+                    <div className={styles.mainTitle}>
+                        <TitleText 
+                            size='36px'
+                            text={mainText}
+                            weight='300'
+                        />
+                    </div>
+                    {icon.map((iconElement, index) => (
+                    <div className={styles.cardMain}>
+                            
+                                <div className={styles.icon}>
+                                    {iconElement}
+                                </div>
+                                <div className={styles.text}>
+                                   <TitleText 
+                                    size='28px'
+                                    text={titleMain[index]}
+                                    weight='300'
+                                   />
+                                   <SubText 
+                                    size='18px'
+                                    weight='300'
+                                    text={textMain[index]}
+                                   />
+                                </div>
+                       
+                    </div>
+                        ))}
                 </div>
             </div>
         </>
