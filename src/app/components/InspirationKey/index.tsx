@@ -13,9 +13,10 @@ interface inspirationsProps{
     titleMain: string[];
     textMain: string[];
     icon: ReactNode[];
+    images: string[];
 }
 
-export default function InspirationKey({title, imgPath, text, subText, mainText, icon, titleMain, textMain }: inspirationsProps) {
+export default function InspirationKey({title, imgPath, text, subText, mainText, icon, titleMain, images, textMain }: inspirationsProps) {
     return (
         <>
             <div className={styles.inspirationContainer}>
@@ -25,12 +26,12 @@ export default function InspirationKey({title, imgPath, text, subText, mainText,
                 </div>
                 <div className={styles.description}>
                     <SubText 
-                        size='18px'
+                        size='16px'
                         weight='200'
                         text={text}
                     />
                     <SubText 
-                        size='18px'
+                        size='16px'
                         weight='200'
                         text={subText}
                     />
@@ -70,13 +71,18 @@ export default function InspirationKey({title, imgPath, text, subText, mainText,
                                     weight='300'
                                    />
                                    <SubText 
-                                    size='18px'
-                                    weight='300'
+                                    size='16px'
+                                    weight='200'
                                     text={textMain[index]}
                                    />
                                 </div>
                        
                     </div>
+                        ))}
+                </div>
+                <div className={styles.images}>
+                        {images.map((imgElement, index) =>(
+                            <img src={imgElement} key={index}/>
                         ))}
                 </div>
             </div>

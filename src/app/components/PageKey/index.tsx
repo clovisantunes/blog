@@ -63,14 +63,14 @@ export default function PageKey({
         <div className={styles.textCard}>
           {paragraphs.map((paragraph, index) => (
             <div className={styles.paragraph} key={index}>
-              <SubText size="22px" text={paragraph} weight="200" />
+              <SubText size="16px" text={paragraph} weight="200" />
             </div>
           ))}
         </div>
         <div className={styles.checklist}>
           <div className={styles.titleCard}>
             <TitleText
-              size="36px"
+              size="22px"
               text="Vantagens do nosso escritório"
               weight="300"
             />
@@ -78,7 +78,7 @@ export default function PageKey({
           <div className={styles.SubTextCard}>
             {advantages.map((advantage, index) => (
               <SubText
-                size="24px"
+                size="16px"
                 text={advantage}
                 weight="300"
                 icon={<IoMdCheckmark key={index} />}
@@ -95,7 +95,7 @@ export default function PageKey({
         <div className={styles.paragraphTwo}>
           {paragraphsTwo.map((paragraphTwo, index) => (
             <div className={styles.paragraph} key={index}>
-              <SubText size="22px" text={paragraphTwo} weight="200" />
+              <SubText size="16px" text={paragraphTwo} weight="200" />
             </div>
           ))}
         </div>

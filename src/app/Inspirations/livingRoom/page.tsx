@@ -36,6 +36,17 @@ export default function LivingRoom(){
                 <FaRegLightbulb />,
                 <RiPaintBrushFill/>
             ]}
+            images={[
+                '/assets/afterImg/img12.png',
+                '/assets/afterImg/img13.png',
+                '/assets/afterImg/img14.png',
+                '/assets/afterImg/img15.png',
+                '/assets/afterImg/img16.png',
+                '/assets/afterImg/img17.png',
+                '/assets/afterImg/img18.png',
+                '/assets/afterImg/img19.png',
+                '/assets/afterImg/img20.png'
+            ]}
         />
         <Contact />
         <Footer />

@@ -36,6 +36,17 @@ export default function Kitchen(){
                     <FaMoneyBillWave />,
                     <MdOutlineDateRange />
                 ]}
+                images={[
+                    '/assets/afterImg/img3.png',
+                    '/assets/afterImg/img4.png',
+                    '/assets/afterImg/img5.png',
+                    '/assets/afterImg/img6.png',
+                    '/assets/afterImg/img7.png',
+                    '/assets/afterImg/img8.png',
+                    '/assets/afterImg/img9.png',
+                    '/assets/afterImg/img10.png',
+                    '/assets/afterImg/img11.png'
+                ]}
             />
             <Contact />
             <Footer />

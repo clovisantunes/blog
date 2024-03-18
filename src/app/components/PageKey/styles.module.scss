@@ -1,6 +1,10 @@
 .pageContainer{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .main{
     width: 100%;
@@ -22,7 +26,7 @@
     }
 }
 .textContainer{
-    width: 100%;
+    width: 80%;
     height: 100%;
     padding: 36px;
     padding-bottom: 0;
@@ -32,8 +36,12 @@
     .textCard{
         width: 64%;
         height: 100%;
-        .paragraph{
-            width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            .paragraph{
+            width: 80%;
             margin-bottom: 16px;
             h2{
                 font-family: "imprint MT shadow";
@@ -41,14 +49,13 @@
         }
     }
     .checklist{
-        width: 24%;
-        height: 28em;
+        width: 36%;
+        height: 100%;
         padding-top: 36px;
         padding: 28px;
         background-color: var(--colors-secondary-50);
         .titleCard{
             width: 100%;
-            height: 28%;
             padding: 16px;
             border-bottom: solid 2px #B9A48C;
             h1{
@@ -75,7 +82,7 @@
     }
 }
 .cardTwo{
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -95,6 +102,9 @@
     display: flex;
     flex-direction: column;
     width: 60%;
+    padding: 36px;       
+    align-items: center;
+    justify-content: center;
     padding: 36px;
     h2{
         margin-bottom: 8px;
@@ -123,6 +133,7 @@
         gap: 1em;
         margin-bottom: 2em;
         transition: all .5s ease-in-out;
+        margin-left: 5%;
         .imgItem{
             position: relative;
             transition: all .5s ease-in-out;
@@ -191,8 +202,8 @@
         flex-direction: column;
         align-items: center;
         span{
-            font-size: 18px;
-            font-weight: 400;
+            font-size: 16px;
+            font-weight: 300;
             font-family: "imprint MT shadow";
         }
     }
@@ -203,7 +214,7 @@
         flex-direction: column;
         align-items: center;
         span{
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 300;
             font-family: "imprint MT shadow";
         }
