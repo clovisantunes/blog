@@ -9,7 +9,7 @@ export default function About(){
             <div className={styles.about_container}>
                 <div className={styles.titleText}>
                     <TitlteText 
-                        size='24px'
+                        size='18px'
                         text='Conheça o escritório Lorem Ipsum Creative idea  '
                         weight='400'
                     />

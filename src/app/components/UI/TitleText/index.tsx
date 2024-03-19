@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 interface titleTextProps{
-    text: string;
+    text?: string;
     size: string;
     weight: string;
 }
