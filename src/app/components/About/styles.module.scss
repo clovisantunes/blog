@@ -46,3 +46,14 @@
     color: white;
     margin-bottom: 2em;
 }
+
+@media (max-width:768px) {
+    .ImgCard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .textCard{
+        padding: 16px;
+    }
+    }

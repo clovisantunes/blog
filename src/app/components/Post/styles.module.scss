@@ -13,7 +13,7 @@
   
     .postItems {
       width: 42%;
-      height: 28em;
+      height: 100%;
       margin: 2em;
   
       &:nth-child(2n) {
@@ -68,3 +68,13 @@
     }
   }
  
+  @media (max-width:768px) {
+    .postContainer{
+      width: 100%;
+    }
+    .postsCard {
+    .postItems{
+      width: 36%;
+    }
+  }
+  }

@@ -64,3 +64,30 @@
     align-items: center;
     color: white;
 }
+
+@media (max-width: 1080px) {
+    .FooterContainer{
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .logoFooter{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .locationContainer{
+            text-align: center;
+            align-items: center;
+            width: 100%;
+        }
+        .decorationsContainer{
+            align-items: center;
+            width: 100%;
+        }
+        .inpirationsContainer{
+            width: 100%;
+            align-items: center;
+        }
+    }
+}

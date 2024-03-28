@@ -8,3 +8,13 @@
         height: 100%;
     }
 }
+
+@media (max-width:768px) {
+    .components{
+        flex-direction: column;
+        .aboutMail{
+            width: 100%;
+        }
+    }
+
+}

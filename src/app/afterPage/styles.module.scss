@@ -51,3 +51,25 @@
         font-family: "inder";
     }
 }
+@media (max-width: 1080px) {
+    .items{
+        width: 100%;
+    }
+    .Imgs{
+        img{
+            width: 16em;
+            height: 16em;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .items{
+        width: 100%;
+    }
+    .Imgs{
+        img{
+            width: 8em;
+            height: 8em;
+        }
+    }
+}

@@ -5,9 +5,10 @@ import { useState } from 'react';
 
 interface navListProps{
     textColor: string;
+    display: string;
 }
 
-export default function NavList({textColor}: navListProps) {
+export default function NavList({textColor, display}: navListProps) {
     const [decoramosDropdownVisible, setDecoramosDropdownVisible] = useState(false);
     const [inspiracoesDropdownVisible, setInspiracoesDropdownVisible] = useState(false);
 
@@ -30,7 +31,7 @@ export default function NavList({textColor}: navListProps) {
     return (
         <>
                 <img src='/assets/logo.png' alt='logo' className={styles.logoImg}/>
-            <div className={styles.navList}>
+            <div className={styles.navList} style={{display: display}}>
                 <ul>
                     <li><a href="/" style={{color: textColor}}>Inicio<span>|</span></a></li>
                     <li

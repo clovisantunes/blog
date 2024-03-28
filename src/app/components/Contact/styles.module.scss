@@ -71,3 +71,22 @@
 .button:hover{
     cursor: pointer;
 }
+@media (max-width:768px) {
+    .contactContainer{
+        flex-direction: column;
+        height: 100%;
+    }
+    .title{
+        width: 100%;
+        text-align: center;
+    }
+    .form{
+        width: 100%;
+    }
+    .textareaContainer{
+        textarea{
+            width: 95%;
+        }
+    }
+}
+

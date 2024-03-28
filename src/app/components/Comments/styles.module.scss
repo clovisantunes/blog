@@ -74,3 +74,20 @@
         color: white;
     }
 }
+@media (max-width:768px) {
+    .commentsContainer{
+        height: 100%;
+    }
+    .title{
+        width: 100%;
+    }
+    .commentCard{
+        flex-direction: column;
+        .client{
+            width: 100%;
+        }
+    }
+    .circleCard{
+        margin-top: 16px;
+    }
+}

@@ -10,6 +10,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         z-index: 2;
         h1{
           font-family: Open sans, sans-serif;
@@ -79,6 +80,7 @@
     width: 100%;
     height: 100%;
     padding: 16px;
+    text-align: center;
     border-bottom: solid 1px #B9A48C;
     display: flex;
     align-items: center;
@@ -95,8 +97,7 @@
     align-items: center;
     flex-direction: row;
     .icon{
-        width: 8%;
-        height: 100%;
+      
         padding: 16px;
         margin-right: 2em;
         display: flex;
@@ -131,4 +132,15 @@
     grid-template-rows: repeat(2, auto); 
     gap: 1em;
     margin-bottom: 2em;
+}
+@media (max-width: 1080px) {
+    .cardMain{
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .cardMain{
+        flex-direction: column;
+        width: 100%;
+    }
 }
