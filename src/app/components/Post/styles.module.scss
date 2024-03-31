@@ -71,10 +71,15 @@
   @media (max-width:768px) {
     .postContainer{
       width: 100%;
+      padding: 8px;
     }
     .postsCard {
     .postItems{
       width: 36%;
+      margin: 16px;
+      .titleCard{
+        font-size: 16px;
+      }
     }
   }
   }

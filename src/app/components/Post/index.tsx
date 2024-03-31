@@ -21,7 +21,7 @@ export default function Post() {
                 <span>Por: {item.autor} | {item.date}</span>
                 </div>
               <div className={styles.titleCard}>
-                <TitlteText size="24px" text={item.title} weight="300" />
+                <TitlteText size="18px" text={item.title} weight="600" />
               </div>
               <div className={styles.descriptionCard}>
                 <SubText size="16px" text={item.description} weight="200" />
