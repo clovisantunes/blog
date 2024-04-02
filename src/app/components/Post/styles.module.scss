@@ -1,5 +1,5 @@
 .postContainer {
-    width: 70%;
+    width: 50%;
     height: 100%;
     padding: 2em;
     margin-bottom: 2em;
@@ -14,7 +14,7 @@
     .postItems {
       width: 42%;
       height: 100%;
-      margin: 2em;
+      margin: 1em;
   
       &:nth-child(2n) {
         margin-top: 6em;
@@ -49,6 +49,7 @@
         margin-bottom: 2%;
   
         h1 {
+          color: #413f3f;
           font-family: 'Open sans', sans-serif;
         }
       }
