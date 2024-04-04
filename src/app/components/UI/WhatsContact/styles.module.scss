@@ -7,4 +7,27 @@
     top: 92%;
     color: white;
     cursor: pointer;
+    span:last-child{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .whatsContainer{
+        width: 3em;
+        height: 3em;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span:last-child{
+            display: none;
+     
+        }
+        svg{
+            position: absolute;
+            top: 25%;
+            left: 25%;
+        }
+    }
 }
